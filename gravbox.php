@@ -37,5 +37,5 @@ function gravbox_load() {
 
 
 function gravbox() {
-	echo '<div class="gravbox"></div>';
+	echo '<div id="gravbox"></div>';
 }
