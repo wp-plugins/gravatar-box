@@ -26,7 +26,7 @@ Author URI: http://ottodestruct.com
     
 */
 
-add_action('init','gravbox_load');
+add_action('wp_print_scripts','gravbox_load');
 function gravbox_load() {
 	// only bother to load stuff on pages where the comment box is likely to be
 	if (is_singular() || is_comments_popup()) {
