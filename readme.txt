@@ -19,7 +19,7 @@ Well, here you go.
 1. Upload the files to the `/wp-content/plugins/gravatar-box/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Add this to your comments form somewhere: 
-<?php if (function_exists('gravbox')) gravbox(); ?>
+if (function_exists('gravbox')) gravbox();
 1. Add styling for it into your style.css. 
 The gravbox() code adds a div with id of "gravbox". 
 The image has the "gravatar" class, and is wrapped inside another div with a class of "gravatar_frame".
@@ -34,9 +34,9 @@ This should be enough for any styling needs. If you wish to further alter the re
 Consult a quality CSS expert. I added the classes and such for just that reason. With some minor CSS code, you can make it look any way you like.
 
 If you must know, the particular CSS I use is this:
-#gravbox{
+#gravbox {
 float:left;
-margin-right: 5px;
+margin-right:5px;
 width:96px;
 height:96px;
 background:url(http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=96.png);
@@ -47,7 +47,7 @@ text-align:center;
 font-weight:bold;
 }
 
-#gravbox img{
+#gravbox img {
 border:1px solid black;
 }
 
