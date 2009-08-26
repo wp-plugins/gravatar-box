@@ -55,6 +55,11 @@ Open your browser's error console. Any javascript errors in there? If so, they m
 
 No, it's not. Go login to your gravatar account and check.
 
+== Screenshots ==
+
+1. Gravatar without any data entry
+2. Gravatar shows up when email address is entered
+3. Link appears if there is no Gravatar for that email address
 
 == Changelog ==
 
