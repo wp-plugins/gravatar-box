@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=otto%
 Tags: gravatar, gravbox, otto, javascript, automatic
 Requires at least: 2.8
 Tested up to: 2.8
-Stable tag: 1.0
+Stable tag: trunk
 
 Displays a box next to the comments form with an automatically updating gravatar, or a sign up link if no gravatar is found for the user.
 
