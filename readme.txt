@@ -85,6 +85,9 @@ No, it's not. Go login to your gravatar account and check.
 
 == Changelog ==
 
+= 1.0.2 =
+* Add toLowerCase() to gravbox.js, to allow emails with capital letters work correctly.
+
 = 1.0.1 =
 * Sorry about that, folks. Version 1.0 had two bugs that my working version did not. Somehow I checked in a version from before I corrected those bugs. 1.0.1 works now.
 

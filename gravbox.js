@@ -7,7 +7,7 @@ jQuery(document).ready(function ($) {
     	
     	var size = "96";
     	
-        var email = $(this).val();
+        var email = $(this).val().toLowerCase();
         if (email.indexOf('@') == -1) { return; }
         var img = new Image();
         $(img)
