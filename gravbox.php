@@ -4,7 +4,7 @@ Plugin Name: Gravatar Box
 Plugin URI: http://ottodestruct.com/blog/wordpress-plugins/gravatar-box
 Description: Automatically shows a gravatar box in the comment form
 Author: Otto
-Version: 1.0.2
+Version: 1.0.3
 Author URI: http://ottodestruct.com
 */
 /*
@@ -37,5 +37,12 @@ function gravbox_load() {
 
 
 function gravbox() {
-	echo '<div id="gravbox"></div>';
+	if (is_user_logged_in()) {
+		$user = wp_get_current_user();
+		echo '<div id="gravbox">';
+		echo get_avatar( $user->id, 96 );
+		echo '</div>';
+	} else {
+		echo '<div id="gravbox"></div>';
+	}
 }

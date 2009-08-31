@@ -85,6 +85,9 @@ No, it's not. Go login to your gravatar account and check.
 
 == Changelog ==
 
+= 1.0.3 =
+Added support for logged in users. It will display their gravatar in a gravbox div same as non-logged-in users.
+
 = 1.0.2 =
 * Add toLowerCase() to gravbox.js, to allow emails with capital letters work correctly.
 
