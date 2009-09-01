@@ -36,10 +36,15 @@ Consult a quality CSS expert. I added the classes and such for just that reason.
 If you must know, the particular CSS I use is this:
 #gravbox {
 float:left;
-margin-right:5px;
+margin-right:6px;
 width:96px;
 height:96px;
 background:url(http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=96.png);
+}
+
+#gravbox .avatar {
+margin:0;
+padding:0;
 }
 
 #gravbox .nogravatar {
@@ -51,7 +56,7 @@ font-weight:bold;
 border:1px solid black;
 }
 
-This makes the gravatar div into a fixed size of 96 px square, floating to the left of where I placed it (right before the comment form's fields). The background url is the default blank gray man avatar. When the person's actual gravatar loads, it has a 1 pixel solid black border. When there is no gravatar for the person, it shows the link to get one, bolded, centered, over the gray man background. 
+This makes the gravatar div into a fixed size of 96 px square, floating to the left of where I placed it (right before the comment form's fields). The background url is the default blank gray man avatar. When the person's actual gravatar loads, it has a 1 pixel solid black border. When there is no gravatar for the person, it shows the link to get one, bolded, centered, over the gray man background. The margin and padding are removed on #gravbox .avatar, because that's what appears for logged in users only, and I wanted a consistent look across the two cases.
 
 So as you can see, styling the gravatar box is fairly easy to do for any way you want to do it.
 
