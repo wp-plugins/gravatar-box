@@ -6,6 +6,7 @@ Description: Automatically shows a gravatar box in the comment form
 Author: Otto
 Version: 1.0.3
 Author URI: http://ottodestruct.com
+License: GPL2
 
     Copyright 2009  Samuel Wood  (email : otto@ottodestruct.com)
 
