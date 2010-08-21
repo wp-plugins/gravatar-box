@@ -3,7 +3,7 @@ Contributors: Otto
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=otto%40ottodestruct%2ecom
 Tags: gravatar, gravbox, otto, javascript, automatic
 Requires at least: 2.8
-Tested up to: 2.9
+Tested up to: 3.0.1
 Stable tag: trunk
 
 Displays a box next to the comments form with an automatically updating gravatar, or a sign up link if no gravatar is found for the user.
@@ -89,6 +89,9 @@ No, it's not. Go login to your gravatar account and check.
 3. Link appears if there is no Gravatar for that email address
 
 == Changelog ==
+
+= 1.0.4 = 
+* Modified to use new 3.0 comments form hooks. No need to edit the theme's comments form anymore, if your theme supports it!
 
 = 1.0.3 =
 Added support for logged in users. It will display their gravatar in a gravbox div same as non-logged-in users.
