@@ -5,6 +5,7 @@ Tags: gravatar, gravbox, otto42, javascript, automatic
 Requires at least: 2.8
 Tested up to: 3.0.1
 Stable tag: trunk
+Logline: Show gravatars right in your comments form
 
 Displays a box next to the comments form with an automatically updating gravatar, or a sign up link if no gravatar is found for the user.
 
