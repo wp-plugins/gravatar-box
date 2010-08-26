@@ -1,6 +1,6 @@
 === Gravatar Box ===
 Contributors: Otto42
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=otto%40ottodestruct%2ecom
+Donate link: https://www.paypal.com/cgi-bin/webscr?test=test&cmd=_donations&business=otto%40ottodestruct%2ecom
 Tags: gravatar, gravbox, otto42, javascript, automatic
 Requires at least: 2.8
 Tested up to: 3.0.1
